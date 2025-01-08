@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlogSphere</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="light-mode">
+  
+  <header class="head">
+    <div class="aa">
+      <h1>BLOG-PAGE</h1>
+    </div>
+    
+    <div class="ll">
+      <button id="tt"> <img src="darkm.svg" alt="" srcset="" id="oo"></button>
+  </div>
+  </header>
+
+  
+  <div class="bo">
+    <h2>Create a Blog Post</h2>
+    <form id="ll">
+      <input type="text" id="title" placeholder="Blog Title" required />
+      <textarea id="content" placeholder="Write your blog here..." required></textarea>
+      <input type="file" id="imageUpload" accept="image/*" required />
+      <div class="oad">
+        <button type="submit" class="pp">Post Blog</button>
+      </div>
+      
+    </form>
+  </div>
+
+  <div class="blog-posts" id="blogPosts"></div>
+
+
+  <div class="modal" id="mos">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img id="modalImage" src="" alt="Blog Image" />
+      <h2 id="modalTitle"></h2>
+      <p id="modalContent"></p>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <p><u>All About Posted Blogs</u></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
